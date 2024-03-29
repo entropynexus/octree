@@ -23,4 +23,4 @@ jobs:
     - name: Check Formatting
       run: rebar3 fmt --check
     - name: Run tests
-      run: rebar3 proper
+      run: rebar3 proper -n 1000
