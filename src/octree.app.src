@@ -1,5 +1,5 @@
 {application, octree, [
-    {description, "An OTP library"},
+    {description, "An Octree implementation in Erlang."},
     {vsn, "0.1.0"},
     {registered, []},
     {applications, [
@@ -8,7 +8,6 @@
     ]},
     {env, []},
     {modules, []},
-
-    {licenses, ["Apache 2.0"]},
+    {licenses, ["MIT"]},
     {links, []}
 ]}.
